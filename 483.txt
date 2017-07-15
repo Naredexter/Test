@@ -1,0 +1,8 @@
+Test questions 20483
+
+-Process tracking and counter
+-Sql connection and reading
+-Debug and deploy
+-Encryption
+-Queues and their methods
+-Just study everything and do every test
