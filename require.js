@@ -5,3 +5,10 @@ let willsmith = [
 "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTQ3NTI2OTA4NzY5MjE2MTI4/drake_photo_by_prince_williams_wireimage_getty_479503454.jpg",
 "https://hollywoodlife.com/wp-content/uploads/2017/08/drake-bio-ap.jpg?w=620"
 ];
+
+
+const imgs = document.getElementsByTagName("img")
+for (let i = 0; i <imgs.length;i++){
+	const randomimg = Math.floor(Math.random() * willsmith.length);
+	imgs[i].src = willsmith[randomimg];
+}
