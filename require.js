@@ -12,3 +12,4 @@ for (let i = 0; i <imgs.length;i++){
 	const randomimg = Math.floor(Math.random() * willsmith.length);
 	imgs[i].src = willsmith[randomimg];
 }
+
